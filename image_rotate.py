@@ -8,7 +8,7 @@ class Solution:
         le = n-1
         while (ls < le):
             # operate the layer with boundary ls and le for row and col
-            # row = ls, le (with col :ls to le)
+            # row = ls, le (with col: ls to le)
             # col = ls, le (with row: ls to le)
             # move row ls to col le, col le to row le, row le to col ls, col ls to row ls: clockwise
             j = ls # for row ls
