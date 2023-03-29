@@ -3,6 +3,8 @@ class Solution:
         """
         Do not return anything, modify matrix in-place instead.
         """
+        if matrix is None:
+            return
         n = len(matrix)
         ls = 0
         le = n-1
